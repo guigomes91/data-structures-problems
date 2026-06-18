@@ -1,15 +1,12 @@
-package ica;
+package ica.librarysystem;
 
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
 record Book(String isbn, String title, int totalCopies, int available) {}
-
 record History(String isbn, String memberId, LocalDateTime now, String operation) {}
-
 record QueueBook(String isbn, String memberId, LocalDateTime reserveDate) {}
-
 record ReportMember(int borrowCount, int returnCount, int borrowAtualCount, int positionQueue) {}
 
 enum Operation {
