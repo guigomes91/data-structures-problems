@@ -3,14 +3,14 @@ package patterns;
 import java.util.*;
 
 // Exemplo de uma classe genérica
-class MyPoint<E> {
+class Ponto<E> {
     private final int x, y;
-    public MyPoint(int x, int y) { this.x = x; this.y = y; }
+    public Ponto(int x, int y) { this.x = x; this.y = y; }
 
     @Override
     public boolean equals(Object obj) {
         // Uso de wildcard (?) para verificar o tipo genérico no pattern matching
-        return obj instanceof MyPoint<?> other
+        return obj instanceof Ponto<?> other
                 && this.x == other.x && this.y == other.y;
     }
 }
