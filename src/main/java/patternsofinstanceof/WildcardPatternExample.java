@@ -1,4 +1,4 @@
-package patterns;
+package patternsofinstanceof;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package patterns;
+package patternsofinstanceof;
 
 import java.util.ArrayList;
 import java.util.List;
