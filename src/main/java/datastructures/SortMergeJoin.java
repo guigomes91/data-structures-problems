@@ -54,7 +54,7 @@ public class SortMergeJoin {
     }
 
     public static void main(String[] args) {
-        // Dados de exemplo baseados nas fontes
+        // Dados de exemplo
         List<Author> authors = new ArrayList<>(Arrays.asList(
                 new Author(1, "Author_1"), new Author(5, "Author_5"),
                 new Author(3, "Author_3"), new Author(2, "Author_2"),

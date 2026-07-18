@@ -1,7 +1,6 @@
 package arrays;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -34,7 +33,6 @@ public class MedianSortedArrays {
         }
 
         Collections.sort(merged);
-
         int divisor = merged.size() % 2;
 
         if (divisor == 0) {
